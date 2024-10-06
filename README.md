@@ -40,4 +40,4 @@ i like how competative responsive can be so like to improve in those features.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Rustom0)
+- Frontend Mentor - [@Rustom dewan](https://www.frontendmentor.io/profile/Rustom0)
