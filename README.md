@@ -20,7 +20,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/Rustom0/project3.git)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://rustom0.github.io/project3/)
 
 ## My process
 first made the layout for desktop verson use flex and then made a layout for mobile version and then start flling it.
