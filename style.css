@@ -1,0 +1,152 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 50%;
+    border-radius: 30px;
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 8px 15px 20px  rgba(39, 38, 38, 0.185);
+
+} 
+.left-side{
+    background-color: rgb(44, 44, 240);
+    width: 48%;
+    border-radius: 30px;
+    z-index: 1;
+    text-align: center;
+    padding: 40px;
+
+    
+}
+.right-side{
+    width: 50%;
+    border-radius: 30px;
+    padding: 30px;
+
+}
+h3{
+    color: rgba(214, 205, 205, 0.801);
+    font-size: 1.2rem;
+    margin-top: 0px;
+}
+.circle{
+    background-color:rgba(38, 38, 165, 0.747);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 1000;
+}
+h2{
+    color: white;
+}
+
+h4{
+    color: rgba(214, 205, 205, 0.801);
+    padding: 15px;
+    margin-top: 0px;
+}
+
+h5{
+    font-size: 1.2rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.right-side ul {
+    list-style: none;
+    padding: 0;
+}
+.right-side li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-top: 8px;
+    background-color: rgba(211, 208, 208, 0.384);
+    border-radius: 8px;
+}
+.Right-side li span {
+    font-weight: bold;
+}
+.risght-side li:nth-child(1) {
+    color: #ff7155;
+}
+.right-side li:nth-child(2) {
+    color: #ffb020;
+}
+.right-side li:nth-child(3) {
+    color: #28a745;
+}
+.right-side li:nth-child(4) {
+    color: #3498db;
+}
+button {
+    background-color:  rgb(46, 12, 46);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: 10px;
+    width: 100%;
+}
+button:hover {
+    background-color: rgb(33, 33, 170);
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+    body{
+        display: block;
+        margin: 0px;
+    }
+     .container{
+      display: block;
+      width: 100%;
+      box-shadow: none;
+      height: 100vh;
+      margin: 0px 0px 0px 0px;
+      border: none;
+      border-radius: 0px;
+    
+    } 
+    .left-side{
+        width: 100%;
+        padding: 20px 10px 0px 0px;
+        margin: 0px;
+        height: 45%;
+        z-index: 1;
+        border-radius: 0px;
+        border-bottom-right-radius: 38px;
+        border-bottom-left-radius: 38px;
+    }   
+    .right-side{
+        width: 84%;
+        height: 55%;
+        border-radius: 0px;
+        margin:0px;
+        padding: 20px 40px 5px 30px;
+    }
+    h3{
+        margin:0px;
+    }
+    .right-side li{
+        margin-bottom: 50px;
+        height: 35px;
+        margin-bottom: 30px;
+        
+    }
+}
